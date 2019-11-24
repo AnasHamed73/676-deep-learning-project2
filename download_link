@@ -1,1 +1,0 @@
-https://isic-archive.com/api/v1/image/download?include=all&filter={%22operator%22:%22in%22,%22operands%22:[{%22identifier%22:%22meta.clinical.benign_malignant%22,%22type%22:%22string%22},[%22benign%22]]}

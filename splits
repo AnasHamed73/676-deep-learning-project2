@@ -1,9 +1,0 @@
-train
-1759 malignant
-8005 benign
-validation
-220 malignant
-1001 benign
-test
-220 malignant
-1001 benign

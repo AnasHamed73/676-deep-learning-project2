@@ -2,6 +2,8 @@
 
 from __future__ import print_function, division
 
+import sys
+sys.path.insert(1, './nets')
 import torch
 import torchvision
 from numpy.distutils.system_info import numarray_info
@@ -21,7 +23,8 @@ from resnet_sa import ResNetSA
 
 # plt.ion()
 
-data_path = "/home/kikuchio/courses/dl/project2/samples"
+data_path = "/home/kikuchio/Documents/courses/deep-learning/project2/samples"
+#data_path = "/home/kikuchio/courses/dl/project2/samples"
 train_data_path = '/home/kikuchio/courses/dl/project2/samples/train'
 fake_train_data_path = '/home/kikuchio/courses/dl/project2/hymenoptera_data'
 validation_data_path = '/home/kikuchio/courses/dl/project2/samples/validation'
@@ -119,8 +122,13 @@ dataloaders, dataset_sizes = load_dataloaders()
 # imshow(out, title=[class_names[x] for x in classes])
 
 model = ResNetSA()
+model_weights_path = "/home/kikuchio/Documents/courses/deep-learning/project2/output_res_sa/best_model_sa.pth"
+model.model.load_state_dict(torch.load(model_weights_path))
+print("model loaded")
+print("F1 score: ", model.f_score(dataloaders['test']))
 
-model = model.train_epochs(dataloaders, num_epochs)
-test_loss, test_acc = model.loss_acc(dataloaders['test'], 'test')
-print("test loss: {}, test acc: {}".format(test_loss, test_acc))
+
+#model = model.train_epochs(dataloaders, num_epochs)
+#test_loss, test_acc = model.loss_acc(dataloaders['test'], 'test')
+#print("test loss: {}, test acc: {}".format(test_loss, test_acc))
 
