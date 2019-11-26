@@ -1,0 +1,1 @@
+{"_id": "5aaf15571165976913640968", "name": "ISIC_0032221", "meta": {"acquisition": {"image_type": "dermoscopic", "pixelsX": 600, "pixelsY": 450}, "clinical": {"benign_malignant": "benign", "age_approx": 20, "sex": "male", "diagnosis": "nevus", "diagnosis_confirm_type": "single image expert consensus", "anatom_site_general": "posterior torso", "melanocytic": true}}}

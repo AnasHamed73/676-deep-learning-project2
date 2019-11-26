@@ -1,0 +1,1 @@
+{"_id": "5aaf15dc1165976913644c2a", "name": "ISIC_0033559", "meta": {"acquisition": {"image_type": "dermoscopic", "pixelsX": 600, "pixelsY": 450}, "clinical": {"benign_malignant": "malignant", "age_approx": 80, "sex": "female", "diagnosis": "melanoma", "diagnosis_confirm_type": "histopathology", "anatom_site_general": "upper extremity", "melanocytic": true}}}

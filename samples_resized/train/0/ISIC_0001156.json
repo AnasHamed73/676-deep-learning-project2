@@ -1,0 +1,1 @@
+{"_id": "54e75606bae47850e86ce0df", "name": "ISIC_0001156", "meta": {"acquisition": {"image_type": "dermoscopic", "pixelsX": 4288, "pixelsY": 2848}, "clinical": {"benign_malignant": "benign", "age_approx": 75, "sex": "male", "diagnosis": "seborrheic keratosis", "diagnosis_confirm_type": "histopathology", "anatom_site_general": "upper extremity", "melanocytic": false}}}

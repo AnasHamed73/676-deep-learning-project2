@@ -1,0 +1,1 @@
+{"_id": "5aaf16111165976913646722", "name": "ISIC_0034100", "meta": {"acquisition": {"image_type": "dermoscopic", "pixelsX": 600, "pixelsY": 450}, "clinical": {"benign_malignant": "malignant", "age_approx": 65, "sex": "male", "diagnosis": "melanoma", "diagnosis_confirm_type": "histopathology", "anatom_site_general": "head/neck", "melanocytic": true}}}

@@ -1,0 +1,1 @@
+{"_id": "581cda3f9fc3c13dcd0e48e2", "name": "ISIC_0014346", "meta": {"acquisition": {"image_type": "dermoscopic", "pixelsX": 4288, "pixelsY": 2848}, "clinical": {"benign_malignant": "benign", "age_approx": 35, "sex": "male", "diagnosis": "nevus", "diagnosis_confirm_type": "histopathology", "nevus_type": null, "anatom_site_general": "upper extremity", "melanocytic": true}}}

@@ -1,0 +1,1 @@
+{"_id": "5aaf14e9116597691363d1a1", "name": "ISIC_0031104", "meta": {"acquisition": {"image_type": "dermoscopic", "pixelsX": 600, "pixelsY": 450}, "clinical": {"benign_malignant": "benign", "age_approx": 60, "sex": "female", "diagnosis": "nevus", "diagnosis_confirm_type": "serial imaging showing no change", "anatom_site_general": "lower extremity", "melanocytic": true}}}
