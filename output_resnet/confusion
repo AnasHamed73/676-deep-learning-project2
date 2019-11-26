@@ -1,13 +1,13 @@
 Best validation Acc: 0.911019
 test loss: 0.2413336899643023, test acc: 0.9068945197407189
-Precision:  0.7096774193548387
-Recall:  0.5
+Precision:  0.619
+Recall:  0.413
 dataset size:  1697
 sum:  1697
-tp:  110
-fp:  45
-tn:  1432
-fn:  110
-F1 score:  0.5866666666666667
+tp:  96
+fp:  59
+tn:  1406
+fn:  136
+F1 score:  0.495
 
-BACC: 81.91
+BACC: 0.7655

@@ -1,0 +1,5 @@
+       		  F-Score	
+resnet      0.495
+resnet_sa   0.543956043956044
+resnext     0.6352357320099256
+resnext_sa  0.617283950617284
