@@ -18,6 +18,8 @@ import numpy as np
 use_gpu = torch.cuda.is_available()
 device = torch.device("cuda:0" if use_gpu else "cpu")
 
+# Code was written with the help of an impelementation of the Transformer by Sam Lynn Evans:
+# https://github.com/SamLynnEvans/Transformer
 
 class SelfAttention(nn.Module):
 

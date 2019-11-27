@@ -19,6 +19,8 @@ use_gpu = torch.cuda.is_available()
 device = torch.device("cuda:0" if use_gpu else "cpu")
 
 
+# Some code borrowed from the offical PyTorch tutorial on Transfer learning:
+# https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
 class ModelBase:
 
     def f_score(self, dataloader):
