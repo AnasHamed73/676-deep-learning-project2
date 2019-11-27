@@ -17,6 +17,8 @@ MASK_POSTFIX = "_mask.png"
 def apply_mask(img_path, mask_path, output_file):
     img = cv2.imread(img_path)
     mask = cv2.imread(mask_path, 0)
+    print("img: ", img)
+    print("mask: ", mask)
     i, j = np.where(mask)
     indices = np.meshgrid(np.arange(min(i), max(i) + 1),
                           np.arange(min(j), max(j) + 1),
