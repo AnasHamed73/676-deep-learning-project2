@@ -3,6 +3,7 @@
 from __future__ import print_function, division
 
 import sys
+# Add the path to the nets directory
 sys.path.insert(1, '/home/kikuchio/Documents/courses/deep-learning/project2/nets')
 import torch
 import torchvision

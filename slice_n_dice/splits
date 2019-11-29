@@ -1,6 +1,9 @@
 train
 8005 benign
+1001 malignant
 validation
 1001 benign
+200 malignant
 test
 1001 benign
+200 malignant
